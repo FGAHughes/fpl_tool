@@ -1,7 +1,7 @@
 import pandas as pd
-from pp_in_x_gws_func import pp_next_x_all
-from get_my_players_func import get_my_players
-from calc_xi_func import calc_xi_bench
+from functions.pp_in_x_gws_func import pp_next_x_all
+from functions.get_my_players_func import get_my_players
+from functions.calc_xi_func import calc_xi_bench
 
 pd.set_option('display.width', 400)
 pd.set_option('display.max_columns', 100)

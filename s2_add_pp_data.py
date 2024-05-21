@@ -1,6 +1,6 @@
 import pandas as pd
 import warnings
-from predict_points_func import retrieve_team_data, retrieve_opp_data, retrieve_player_data, predict_points
+from functions.predict_points_func import retrieve_team_data, retrieve_opp_data, retrieve_player_data, predict_points
 
 # This is optional but the program is still fully functional as long as you are using Pandas 3.2.2 or prior
 warnings.simplefilter(action='ignore', category=FutureWarning)
