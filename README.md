@@ -6,7 +6,7 @@ Required Python Libraries include:
 * Requests
 * warnings (optional)
 
-To use this tool, run 'access_fpl_api.py', 'add_pp_data.py' and then 'suggest_transfers.py' in that order. Within 'suggest_transfers.py' you should enter your unique manager ID - found in the URL of the fpl.com points page when you log in. Depending on your strategy, you can alter the number of gameweeks that points will be predicted for within 'access_fpl_api.py'. I would recommend 5 for a regular transfer but you may consider less if it is for a free-hit or wildcard.
+To use this tool, run 's1_access_fpl_api.py', 's2_add_pp_data.py' and then 's3_suggest_transfers.py' in that order. Within 'suggest_transfers.py' you should enter your unique manager ID - found in the URL of the fpl.com points page when you log in. Depending on your strategy, you can alter the number of gameweeks that points will be predicted for within 'access_fpl_api.py'. I would recommend 5 for a regular transfer but you may consider less if it is for a free-hit or wildcard.
 
 The output of the final step will be your best starting XI based on the players you had last week (excluding free hits), the best players to bring in this week (ranked by points and position) and the best affordable transfers you can make.
 
