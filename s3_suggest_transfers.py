@@ -12,9 +12,6 @@ current_gameweek = event_data.is_current.ne(
 
 # input your ID below (inserted as a default is mine)
 my_id = 759948
-# 759948
-# Feli.v2: 4395559
-# Fred's: 2966444
 
 # This function returns the manager above's players with the player's unaltered ID's, and the manager's funds available
 my_players_df, my_bank = get_my_players(my_id)
