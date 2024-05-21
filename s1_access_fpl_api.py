@@ -1,6 +1,5 @@
 import requests
 import pandas as pd
-import numpy as np
 
 # Bootstrap-static contains every premier league player (element) and general data about them.
 # We connect to the api and return the data we need
